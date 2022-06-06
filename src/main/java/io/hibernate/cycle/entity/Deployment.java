@@ -15,5 +15,14 @@ public class Deployment {
 
     @ManyToOne
     private AnimalDeployment animalDeployment;
+
+    public Deployment() {
+    }
+
+    public Deployment(Integer deploymentId, LocalDateTime startDate, LocalDateTime endDate, AnimalDeployment animalDeployment) {
+        this.deploymentId = deploymentId;
+        this.startDate = startDate;
+        this.endDate = endDate;
+        this.animalDeployment = animalDeployment;
+    }
 }
-//spring_hibernate_entity_ERD

@@ -28,8 +28,4 @@ public class Contact {
         this.deployment = deployment;
         this.animalDeployment = animalDeployment;
     }
-
-    //    deployment id
-
-
 }
